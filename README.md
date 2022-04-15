@@ -15,3 +15,7 @@ and add these directories to the python path:
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/apps/intel_parallel_studio_xe/2017_update8/compilers_and_libraries_2017.8.262/linux/mpi/intel64/lib:/apps/libfabric/1.8.0/lib:/apps/intel_parallel_studio_xe/2017_update8/compilers_and_libraries_2017.8.262/linux/compiler/lib/intel64:/apps/intel_parallel_studio_xe/2017_update8/compilers_and_libraries_2017.8.262/linux/mkl/lib/intel64/
 
 when I compiled MLIPPY and each time I wanted to use it.
+
+I've included some tools that can help analyze the data from the iterations of the genetic algorithm (analyse_blacklist.py, analyse_mlippy.py, view_mlippy.py, etc.) The files that are vital for the genetic algorithm are start_children.py (generate the first generation of samples), generate_unit_cell.py, and gen_alg.py.
+
+My lowest-energy results are included under the "special" directories in luke_data
